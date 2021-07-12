@@ -5,3 +5,5 @@
 python ui.py
 ```
 运行项目
+
+![image](https://user-images.githubusercontent.com/72735271/125338677-11930200-e383-11eb-8e69-666f9f09f858.png)
