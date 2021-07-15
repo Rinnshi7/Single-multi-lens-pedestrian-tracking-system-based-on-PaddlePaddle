@@ -91,13 +91,13 @@ class Ui_self(QtWidgets.QMainWindow):
         self.label_p1 = QtWidgets.QLabel(self)
         self.label_p1.setGeometry(QtCore.QRect(-20, -10, 401, 651))
         self.label_p1.setText("")
-        self.label_p1.setPixmap(QtGui.QPixmap("icons/bg.png"))
+        self.label_p1.setPixmap(QtGui.QPixmap("./icons/bg.png"))
         self.label_p1.setScaledContents(True)
         self.label_p1.setObjectName("label_p1")
         self.label_pp = QtWidgets.QLabel(self)
         self.label_pp.setGeometry(QtCore.QRect(80, 110, 201, 61))
         self.label_pp.setText("")
-        self.label_pp.setPixmap(QtGui.QPixmap("icons/下载.png"))
+        self.label_pp.setPixmap(QtGui.QPixmap("./icons/下载.png"))
         self.label_pp.setScaledContents(True)
         self.label_pp.setObjectName("label_pp")
         self.label_name = QtWidgets.QLabel(self)
@@ -129,7 +129,7 @@ class Ui_self(QtWidgets.QMainWindow):
                                      "}")
         self.btn_close.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("icons/cil-x.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("./icons/cil-x.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.btn_close.setIcon(icon)
         self.btn_close.setFlat(True)
         self.btn_close.setObjectName("btn_close")
@@ -148,7 +148,7 @@ class Ui_self(QtWidgets.QMainWindow):
                                    "}")
         self.btn_min.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("icons/cil-window-minimize.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap("./icons/cil-window-minimize.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.btn_min.setIcon(icon1)
         self.btn_min.setFlat(True)
         self.btn_min.setObjectName("btn_min")
@@ -169,14 +169,14 @@ class Ui_self(QtWidgets.QMainWindow):
                                     "}")
         self.btn_show.setText("")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("icons/right.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon2.addPixmap(QtGui.QPixmap("./icons/right.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.btn_show.setIcon(icon2)
         self.btn_show.setFlat(True)
         self.btn_show.setObjectName("btn_show")
         self.label_upload = QtWidgets.QLabel(self)
         self.label_upload.setGeometry(QtCore.QRect(48, 305, 290, 101))
         self.label_upload.setText("")
-        self.label_upload.setPixmap(QtGui.QPixmap("icons/label_gray.png"))
+        self.label_upload.setPixmap(QtGui.QPixmap("./icons/label_gray.png"))
         self.label_upload.setScaledContents(True)
         self.label_upload.setObjectName("label_upload")
         self.btn_camera = QtWidgets.QPushButton(self)
@@ -196,7 +196,7 @@ class Ui_self(QtWidgets.QMainWindow):
                                       "}")
         self.btn_camera.setText("")
         icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap("icons/camera.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon3.addPixmap(QtGui.QPixmap("./icons/camera.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.btn_camera.setIcon(icon3)
         self.btn_camera.setIconSize(QtCore.QSize(50, 50))
         self.btn_camera.setObjectName("btn_camera")
@@ -217,7 +217,7 @@ class Ui_self(QtWidgets.QMainWindow):
                                      "}")
         self.btn_image.setText("")
         icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap("icons/image.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon4.addPixmap(QtGui.QPixmap("./icons/image.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.btn_image.setIcon(icon4)
         self.btn_image.setIconSize(QtCore.QSize(50, 50))
         self.btn_image.setObjectName("btn_image")
@@ -238,14 +238,14 @@ class Ui_self(QtWidgets.QMainWindow):
                                      "}")
         self.btn_video.setText("")
         icon5 = QtGui.QIcon()
-        icon5.addPixmap(QtGui.QPixmap("icons/video.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon5.addPixmap(QtGui.QPixmap("./icons/video.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.btn_video.setIcon(icon5)
         self.btn_video.setIconSize(QtCore.QSize(50, 50))
         self.btn_video.setObjectName("btn_video")
         self.label_11 = QtWidgets.QLabel(self)
         self.label_11.setGeometry(QtCore.QRect(50, 420, 290, 101))
         self.label_11.setText("")
-        self.label_11.setPixmap(QtGui.QPixmap("icons/label_gray.png"))
+        self.label_11.setPixmap(QtGui.QPixmap("./icons/label_gray.png"))
         self.label_11.setScaledContents(True)
         self.label_11.setObjectName("label_11")
         self.frame = QtWidgets.QFrame(self)
@@ -256,13 +256,13 @@ class Ui_self(QtWidgets.QMainWindow):
         self.label_p2 = QtWidgets.QLabel(self.frame)
         self.label_p2.setGeometry(QtCore.QRect(0, 0, 931, 561))
         self.label_p2.setText("")
-        self.label_p2.setPixmap(QtGui.QPixmap("icons/label_gray.png"))
+        self.label_p2.setPixmap(QtGui.QPixmap("./icons/label_gray.png"))
         self.label_p2.setScaledContents(True)
         self.label_p2.setObjectName("label_p2")
         self.label_p3 = QtWidgets.QLabel(self.frame)
         self.label_p3.setGeometry(QtCore.QRect(0, 500, 878, 111))
         self.label_p3.setText("")
-        self.label_p3.setPixmap(QtGui.QPixmap("icons/label.png"))
+        self.label_p3.setPixmap(QtGui.QPixmap("./icons/label.png"))
         self.label_p3.setScaledContents(True)
         self.label_p3.setObjectName("label_p3")
         self.label_people = QtWidgets.QLabel(self.frame)
@@ -274,7 +274,7 @@ class Ui_self(QtWidgets.QMainWindow):
         self.label_user = QtWidgets.QLabel(self.frame)
         self.label_user.setGeometry(QtCore.QRect(40, 530, 41, 41))
         self.label_user.setText("")
-        self.label_user.setPixmap(QtGui.QPixmap("icons/user (1).png"))
+        self.label_user.setPixmap(QtGui.QPixmap("./icons/user (1).png"))
         self.label_user.setScaledContents(True)
         self.label_user.setObjectName("label_user")
         self.label_cv = QtWidgets.QLabel(self.frame)
@@ -300,7 +300,7 @@ class Ui_self(QtWidgets.QMainWindow):
                                     "}")
         self.btn_stop.setText("")
         icon6 = QtGui.QIcon()
-        icon6.addPixmap(QtGui.QPixmap("icons/stop.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon6.addPixmap(QtGui.QPixmap("./icons/stop.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.btn_stop.setIcon(icon6)
         self.btn_stop.setIconSize(QtCore.QSize(41, 41))
         self.btn_stop.setObjectName("btn_stop")
@@ -321,7 +321,7 @@ class Ui_self(QtWidgets.QMainWindow):
                                     "}")
         self.btn_play.setText("")
         icon7 = QtGui.QIcon()
-        icon7.addPixmap(QtGui.QPixmap("icons/play.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon7.addPixmap(QtGui.QPixmap("./icons/play.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.btn_play.setIcon(icon7)
         self.btn_play.setIconSize(QtCore.QSize(41, 41))
         self.btn_play.setObjectName("btn_play")
@@ -342,7 +342,7 @@ class Ui_self(QtWidgets.QMainWindow):
                                      "}")
         self.btn_pause.setText("")
         icon8 = QtGui.QIcon()
-        icon8.addPixmap(QtGui.QPixmap("icons/pause.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon8.addPixmap(QtGui.QPixmap("./icons/pause.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.btn_pause.setIcon(icon8)
         self.btn_pause.setIconSize(QtCore.QSize(41, 41))
         self.btn_pause.setObjectName("btn_pause")
@@ -355,7 +355,7 @@ class Ui_self(QtWidgets.QMainWindow):
                                        "    color: rgb(255, 255, 255);\n"
                                        "font: 13pt \"黑体\";}\n"
                                        "QSpinBox:up-button{\n"
-                                       "image: url(icons/add.png);\n"
+                                       "image: url(./icons/add.png);\n"
                                        "    background-color: rgb(44, 49, 60);\n"
                                        "    subcontrol-position:right;\n"
                                        "    width:20px;\n"
@@ -364,7 +364,7 @@ class Ui_self(QtWidgets.QMainWindow):
                                        "}\n"
                                        "QSpinBox:down-button{\n"
                                        "    \n"
-                                       "    image: url(icons/line.png);\n"
+                                       "    image: url(./icons/line.png);\n"
                                        "    background-color: rgb(44, 49, 60);\n"
                                        "    subcontrol-position:left;\n"
                                        "    width:20px;\n"
@@ -429,14 +429,14 @@ class Ui_self(QtWidgets.QMainWindow):
                                     "}")
         self.btn_hide.setText("")
         icon9 = QtGui.QIcon()
-        icon9.addPixmap(QtGui.QPixmap("icons/return.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon9.addPixmap(QtGui.QPixmap("./icons/return.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.btn_hide.setIcon(icon9)
         self.btn_hide.setFlat(True)
         self.btn_hide.setObjectName("btn_hide")
         self.label_degree = QtWidgets.QLabel(self)
         self.label_degree.setGeometry(QtCore.QRect(80, 440, 50, 50))
         self.label_degree.setText("")
-        self.label_degree.setPixmap(QtGui.QPixmap("icons/filter.png"))
+        self.label_degree.setPixmap(QtGui.QPixmap("./icons/filter.png"))
         self.label_degree.setScaledContents(True)
         self.label_degree.setObjectName("label_degree")
         self.spinbox = QtWidgets.QDoubleSpinBox(self)
@@ -451,7 +451,7 @@ class Ui_self(QtWidgets.QMainWindow):
                                    "    color: rgb(255, 255, 255);\n"
                                    "font: 13pt \"黑体\";}\n"
                                    "QDoubleSpinBox:up-button{\n"
-                                   "    image: url(icons/add.png);\n"
+                                   "    image: url(./icons/add.png);\n"
                                    "    background-color: rgb(44, 49, 60);\n"
                                    "    subcontrol-position:right;\n"
                                    "    width:30px;\n"
@@ -460,7 +460,7 @@ class Ui_self(QtWidgets.QMainWindow):
                                    "}\n"
                                    "QDoubleSpinBox:down-button{\n"
                                    "    \n"
-                                   "    image: url(icons/line.png);\n"
+                                   "    image: url(./icons/line.png);\n"
                                    "    background-color: rgb(44, 49, 60);\n"
                                    "    subcontrol-position:left;\n"
                                    "    width:30px;\n"
@@ -506,7 +506,7 @@ class Ui_self(QtWidgets.QMainWindow):
                                        "}")
         self.btn_setting.setText("")
         icon10 = QtGui.QIcon()
-        icon10.addPixmap(QtGui.QPixmap("icons/setting.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon10.addPixmap(QtGui.QPixmap("./icons/setting.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.btn_setting.setIconSize(QtCore.QSize(30, 30))
         self.btn_setting.setIcon(icon10)
         self.btn_setting.setFlat(True)
@@ -520,7 +520,7 @@ class Ui_self(QtWidgets.QMainWindow):
         self.label_2 = QtWidgets.QLabel(self.frame_setting)
         self.label_2.setGeometry(QtCore.QRect(-20, -10, 311, 361))
         self.label_2.setText("")
-        self.label_2.setPixmap(QtGui.QPixmap("icons/bg.png"))
+        self.label_2.setPixmap(QtGui.QPixmap("./icons/bg.png"))
         self.label_2.setScaledContents(True)
         self.label_2.setObjectName("label_2")
 
@@ -543,7 +543,7 @@ class Ui_self(QtWidgets.QMainWindow):
                                       "}")
         self.btn_GPUoff.setText("")
         icon10 = QtGui.QIcon()
-        icon10.addPixmap(QtGui.QPixmap("icons/switch-OFF (1).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon10.addPixmap(QtGui.QPixmap("./icons/switch-OFF (1).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.btn_GPUoff.setIcon(icon10)
         self.btn_GPUoff.setIconSize(QtCore.QSize(61, 41))
         self.btn_GPUoff.setObjectName("btn_GPUoff")
@@ -633,7 +633,7 @@ class Ui_self(QtWidgets.QMainWindow):
                                      "}")
         self.btn_GPUon.setText("")
         icon11 = QtGui.QIcon()
-        icon11.addPixmap(QtGui.QPixmap("icons/switch-ON (1).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon11.addPixmap(QtGui.QPixmap("./icons/switch-ON (1).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.btn_GPUon.setIcon(icon11)
         self.btn_GPUon.setIconSize(QtCore.QSize(61, 41))
         self.btn_GPUon.setObjectName("btn_GPUon")
@@ -647,7 +647,7 @@ class Ui_self(QtWidgets.QMainWindow):
                                          "    color: rgb(255, 255, 255);\n"
                                          "font: 13pt \"黑体\";}\n"
                                          "QSpinBox:up-button{\n"
-                                         "image: url(icons/add.png);\n"
+                                         "image: url(./icons/add.png);\n"
                                          "    background-color: rgb(44, 49, 60);\n"
                                          "    subcontrol-position:right;\n"
                                          "    width:20px;\n"
@@ -656,7 +656,7 @@ class Ui_self(QtWidgets.QMainWindow):
                                          "}\n"
                                          "QSpinBox:down-button{\n"
                                          "    \n"
-                                         "    image: url(icons/line.png);\n"
+                                         "    image: url(./icons/line.png);\n"
                                          "    background-color: rgb(44, 49, 60);\n"
                                          "    subcontrol-position:left;\n"
                                          "    width:20px;\n"
